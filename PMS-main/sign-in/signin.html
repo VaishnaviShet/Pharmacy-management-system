@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signin.css">
+    <title>SIGN-In</title>
+</head>
+<body>
+    <center>
+    <div class="layer">
+       
+        <form class="form-box" action="validation.php"method="post">
+            
+            <h1>Sign In</h1><br>
+            <input type="email" placeholder="Enter your Email" name="email" id="email" maxlength="20" autocomplete="off" required><br> <br> 
+            <input type="password" placeholder="Password" name="password" id="password" maxlength="15"  required><br> <br>
+            <label><input type="checkbox" checked="checked" name="remember"> Remember me </label>
+            <input type="submit" id="submit" name="submit" value="Sign In"><br> <br>
+            <div>
+                <p>Dont have account??</p>
+                <button><a href="../SignUp/signup.php">Sign Up</a></button>
+            </div>
+            
+        </form>
+    </div>
+    </center>
+
+    
+</body>
+</html>
